@@ -506,7 +506,7 @@ body {
 textarea {
     resize: none;
 }
-
+.skill ul {}
 .skill a {
     text-decoration: none;
 }
