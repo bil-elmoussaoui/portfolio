@@ -6,7 +6,7 @@ $(function () {
         } else {
             var element = "body";
         }
-        $('body').stop().animate({
+        $('body,html').stop().animate({
             scrollTop: $(element).offset().top
         }, 600, 'easeInOutExpo');
         event.preventDefault();
