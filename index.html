@@ -35,6 +35,7 @@
                     <li class="scroll"> <a href="#skills">Skills</a></li>
                     <li class="scroll"><a href="#projects">Projects</a></li>
                     <li class="scroll"><a href="#about">About</a></li>
+                    <li id="contact"><a href="#">Contact me</a></li>
                     <li><a href="https://github.com/bil-elmoussaoui/portfolio">Fork me</a></li>
                 </ul>
             </div>
@@ -47,6 +48,50 @@
         <!-- #home -->
         <!-- Empty here at the moment -->
         <!-- /#home -->
+
+        <!-- Contact -->
+        <div class="modal contact-form">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Contact me</h4>
+                    </div>
+                    <form class="form-horizontal" action="mailto:bil.elmoussaoui@gmail.com" method="post" enctype="text/plain">
+                    <div class="modal-body">
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label" for="name">Name</label>
+                                <div class="col-md-6">
+                                    <input type="text" class="form-control" id="name" />
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label" for="email">Email</label>
+                                <div class="col-md-6">
+                                    <input type="email" class="form-control" id="email" />
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label" for="subject">Subject</label>
+                                <div class="col-md-6">
+                                    <input type="text" class="form-control" id="subject" />
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label" for="message"></label>
+                                <div class="col-md-8">
+                                    <textarea rows="3" class="form-control" id="message"></textarea>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default hide-contact" data-dismiss="modal">Close</button>
+                        <button type="submit" class="btn btn-primary">Send</button>
+                    </div>
+                </form>
+                </div>
+            </div>
+        </div>
+        <!-- Contact -->
 
         <!-- #skills -->
 
@@ -208,7 +253,7 @@
         <div id="about">
             <h1 class="title">About me</h1>
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-8">
                     <h3>Introduction</h3>
                     <p style="text-align: justify;">
                         Hi! I'm Bilal Elmoussaoui, from Tangier, Morocco and currently living in Brussels, Belgium. I'm a civil engineering student at Polytechnic School of Brussels (ULB). I'm also a geek, and an active linux user. I love reading manga and comics , watching
@@ -229,48 +274,14 @@
                             <li>Python &amp; GTK/Qt</li>
                         </ul>
                     </ul>
-
                 </div>
-
-                <div class="col-md-6">
-                    <h3>Contact me</h3>
-                    <form class="form-horizontal" action="mailto:bil.elmoussaoui@gmail.com" method="post" enctype="text/plain">
-                        <div class="form-group">
-                            <label class="col-sm-2 control-label" for="name">Name</label>
-                            <div class="col-md-6">
-                                <input type="text" class="form-control" id="name" />
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label class="col-sm-2 control-label" for="email">Email</label>
-                            <div class="col-md-6">
-                                <input type="email" class="form-control" id="email" />
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label class="col-sm-2 control-label" for="subject">Subject</label>
-                            <div class="col-md-6">
-                                <input type="text" class="form-control" id="subject" />
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label class="col-sm-2 control-label" for="message"></label>
-                            <div class="col-md-6">
-                                <textarea rows="3" class="form-control" id="message"></textarea>
-                            </div>
-                        </div>
-
-                        <div class="form-group">
-                            <div class="col-sm-offset-2 col-md-10">
-                                <input type="submit" class="btn btn-default" value="Send">
-                            </div>
-                        </div>
-                    </form>
+                <div class="col-md-3">
+                    <img src="img/personnal-photo.jpg" width="300" height="300" alt="Hello it's me" />
                 </div>
-
             </div>
         </div>
         <!-- /#About -->
+        <br><br>
     </div>
     <!-- /.container -->
 

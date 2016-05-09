@@ -11,4 +11,16 @@ $(function () {
         }, 600, 'easeInOutExpo');
         event.preventDefault();
     });
+    $("#hide").click(function(){
+        $("p").hide();
+    });
+
+    $("#contact").bind("click", function(event){
+        $(".contact-form").toggle(500);
+        event.preventDefault();
+    });
+    $(".hide-contact").bind("click", function(event){
+        $(".contact-form").toggle(500);
+        event.preventDefault();
+    });
 });
