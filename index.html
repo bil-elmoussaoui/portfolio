@@ -16,6 +16,7 @@
     <script src="js/jquery-ui.min.js"></script>
     <link href="css/style.css" rel="stylesheet">
     <script src="js/scrollEffect.js"></script>
+    <script src="js/contactForm.js"></script>
 </head>
 
 <body>
@@ -56,22 +57,22 @@
                     <div class="modal-header">
                         <h4 class="modal-title">Contact me</h4>
                     </div>
-                    <form class="form-horizontal" action="mailto:bil.elmoussaoui@gmail.com" method="post" enctype="text/plain">
-                    <div class="modal-body">
+                    <form class="form-horizontal" method="post">
+                        <div class="modal-body">
                             <div class="form-group">
-                                <label class="col-sm-2 control-label" for="name">Name</label>
+                                <label class="col-sm-2 control-label" for="name">Name: </label>
                                 <div class="col-md-6">
                                     <input type="text" class="form-control" id="name" />
                                 </div>
                             </div>
                             <div class="form-group">
-                                <label class="col-sm-2 control-label" for="email">Email</label>
+                                <label class="col-sm-2 control-label" for="email">Email:</label>
                                 <div class="col-md-6">
                                     <input type="email" class="form-control" id="email" />
                                 </div>
                             </div>
                             <div class="form-group">
-                                <label class="col-sm-2 control-label" for="subject">Subject</label>
+                                <label class="col-sm-2 control-label" for="subject">Subject : </label>
                                 <div class="col-md-6">
                                     <input type="text" class="form-control" id="subject" />
                                 </div>
@@ -82,12 +83,12 @@
                                     <textarea rows="3" class="form-control" id="message"></textarea>
                                 </div>
                             </div>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-default hide-contact" data-dismiss="modal">Close</button>
-                        <button type="submit" class="btn btn-primary">Send</button>
-                    </div>
-                </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default hide-contact" data-dismiss="modal">Close</button>
+                            <button type="submit" id="contact-submit" class="btn btn-primary">Send</button>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
@@ -101,7 +102,8 @@
 
                 <div class="col-lg-3 skill">
                     <img src="img/skills/html5.svg" alt="HTML" />
-                    <br><br>
+                    <br>
+                    <br>
                     <ul>
                         <li>Bootstrap</li>
                         <li>SASS &amp; LESS</li>
@@ -115,7 +117,8 @@
 
                 <div class="col-lg-3 skill">
                     <img src="img/skills/javascript.svg" alt="Javascript" />
-                    <br><br>
+                    <br>
+                    <br>
                     <ul>
                         <li>jQuery</li>
                         <li>AngulasJS</li>
@@ -127,7 +130,8 @@
                 </div>
                 <div class="col-lg-3 skill">
                     <img src="img/skills/python.svg" alt="Python" />
-                    <br><br>
+                    <br>
+                    <br>
                     <ul>
                         <li>Desktop applications (Gtk/Qt)</li>
                         <li>Django</li>
@@ -139,7 +143,8 @@
                 </div>
                 <div class="col-lg-3 skill">
                     <img src="img/skills/php.svg" alt="PHP" />
-                    <br><br>
+                    <br>
+                    <br>
                     <ul>
                         <li>CakePHP</li>
                         <li>WordPress</li>
@@ -151,7 +156,8 @@
                 </div>
                 <div class="col-lg-3 skill">
                     <img src="img/skills/java.svg" alt="Java" />
-                    <br><br>
+                    <br>
+                    <br>
                     <div class="progress">
                         <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 30%;">
                         </div>
@@ -159,7 +165,8 @@
                 </div>
                 <div class="col-lg-3 skill">
                     <img src="img/skills/mysql.svg" alt="MySQL" />
-                    <br><br>
+                    <br>
+                    <br>
                     <div class="progress">
                         <div class="progress-bar" role="progressbar" aria-valuenow=60 "" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
                         </div>
@@ -178,7 +185,7 @@
                     <a href="https://github.com/bil-elmoussaoui/Hardcode-Tray">
                         <img src="img/projects/hardcode-tray.png" width="140" height="140" class="img-thumbnail" alt="Hardcode-Tray">
                     </a>
-                    <h2>Hardcode Tray <a class="github-button" href="https://github.com/bil-elmoussaoui/Hardcode-tray" data-icon="octicon-star" data-count-href="/bil-elmoussaoui/Hardcode-tray/stargazers" data-count-api="/repos/bil-elmoussaoui/Hardcode-tray#stargazers_count" data-count-aria-label="# stargazers on GitHub"
+                    <h2>Hardcode Tray <br/><a class="github-button" href="https://github.com/bil-elmoussaoui/Hardcode-tray" data-icon="octicon-star" data-count-href="/bil-elmoussaoui/Hardcode-tray/stargazers" data-count-api="/repos/bil-elmoussaoui/Hardcode-tray#stargazers_count" data-count-aria-label="# stargazers on GitHub"
                         aria-label="Star bil-elmoussaoui/Hardcode-tray on GitHub">Star</a>
                     </h2>
 
@@ -201,7 +208,7 @@
                     <a href="https://github.com/jangernert/FeedReader">
                         <img src="img/projects/feedreader.png" width="140" height="140" class="img-thumbnail" alt="Feedreader">
                     </a>
-                    <h2>FeedReader <a class="github-button" href="https://github.com/jangernert/FeedReader" data-icon="octicon-star" data-count-href="/jangernert/FeedReader/stargazers" data-count-api="/repos/jangernert/FeedReader#stargazers_count" data-count-aria-label="# stargazers on GitHub"
+                    <h2>FeedReader <br/><a class="github-button" href="https://github.com/jangernert/FeedReader" data-icon="octicon-star" data-count-href="/jangernert/FeedReader/stargazers" data-count-api="/repos/jangernert/FeedReader#stargazers_count" data-count-aria-label="# stargazers on GitHub"
                         aria-label="Star jangernert/FeedReader on GitHub">Star</a></h2>
                     <p>FeedReader is a modern desktop application designed to complement existing web-based RSS accounts. It combines all the advantages of web based services like synchronisation across all your devices with everything you expect from a
                         modern desktop application.
@@ -217,15 +224,31 @@
                             Gtk
                         </span>
                     </div>
-
-
                 </div>
 
+                <div class="col-lg-4 skill">
+                    <a href="https://github.com/bil-elmoussaoui/Gnome-TwoFactorAuth">
+                        <img src="img/projects/gnome-twofactorauth.png" width="140" height="140" class="img-thumbnail" alt="Gnome TwoFactorAuth">
+                    </a>
+                    <h2>Gnome TwoFactorAuth <br/><a class="github-button" href="https://github.com/bil-elmoussaoui/Gnome-TwoFactorAuth" data-icon="octicon-star" data-count-href="/bil-elmoussaoui/Gnome-TwoFactorAuth/stargazers" data-count-api="/repos/bil-elmoussaoui/Gnome-TwoFactorAuth#stargazers_count" data-count-aria-label="# stargazers on GitHub"
+                        aria-label="Star bil-elmoussaoui/Gnome-TwoFactorAuth on GitHub">Star</a></h2>
+                    <p>Two-factor authentication code generator for Gnome</p>
+                    <div class="tags">
+                        <span class="label tag btn-primary md">
+                            Python
+                        </span> &nbsp;
+                        <span class="label tag btn-primary md">
+                            Gtk
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
                 <div class="col-lg-4 skill">
                     <a href="http://gnumdk.github.io/lollypop-web/">
                         <img src="img/projects/lollypop.png" width="140" height="140" class="img-thumbnail" alt="Lollypop">
                     </a>
-                    <h2>Lollypop website
+                    <h2>Lollypop website<br/>
                         <a class="github-button" href="https://github.com/gnumdk/lollypop-web" data-icon="octicon-star" data-count-href="/gnumdk/lollypop-web/stargazers" data-count-api="/repos/gnumdk/lollypop-web#stargazers_count" data-count-aria-label="# stargazers on GitHub"
                                             aria-label="Star gnumdk/lollypop-web on GitHub">Star</a>
                     </h2>
@@ -281,7 +304,8 @@
             </div>
         </div>
         <!-- /#About -->
-        <br><br>
+        <br>
+        <br>
     </div>
     <!-- /.container -->
 

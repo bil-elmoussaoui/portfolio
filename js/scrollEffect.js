@@ -1,5 +1,5 @@
-$(function () {
-    $('.scroll a').bind('click', function (event) {
+$(function() {
+    $('.scroll a').bind('click', function(event) {
         var $anchor = $(this);
         if ($($anchor.attr("href")).length) {
             var element = $anchor.attr("href");
@@ -11,16 +11,7 @@ $(function () {
         }, 600, 'easeInOutExpo');
         event.preventDefault();
     });
-    $("#hide").click(function(){
+    $("#hide").click(function() {
         $("p").hide();
-    });
-
-    $("#contact").bind("click", function(event){
-        $(".contact-form").toggle(500);
-        event.preventDefault();
-    });
-    $(".hide-contact").bind("click", function(event){
-        $(".contact-form").toggle(500);
-        event.preventDefault();
     });
 });

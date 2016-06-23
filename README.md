@@ -2,6 +2,6 @@
 
 Welcome to my open source static web site.
 
-### Credits : 
+### Credits :
 - [DevIcon](https://github.com/konpa/devicon/)
-- [Bootstrap framework](getbootstrap.com)
+- [Bootstrap framework](https://getbootstrap.com/)
